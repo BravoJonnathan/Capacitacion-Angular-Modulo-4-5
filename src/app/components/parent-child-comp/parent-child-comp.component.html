@@ -1,0 +1,28 @@
+<div>
+    <div class="card">
+        <div class="card-header">
+            <h1>¿Cómo se identifica un componente padre y un componente hijo?</h1>
+        </div>
+        <div class="card-body text-justify">
+           <p>A continuación se lista las diferentes formas en las que se puede indentificar un componente, si es padre o hijo: </p>
+           <ul>
+               <li>
+                    <p>
+                        La etiqueta @Input de Angular, esta etiqueta se pone en el componente hijo para indicar que esa variable proviene desde fuera del componente, es decir desde el componente padre.
+                    </p>
+               </li>
+               <li>
+                   <p>
+                        Mediante ViewChild, el padre crea el componente hijo y tiene acceso a sus datos y atributos. Esta etiqueta estara presente en el componente padre.
+                   </p>
+               </li>
+               <li>
+                   <p>
+                        Mediante output y eventos, Éste método es útil cuando queremos queremos informar de cambios en los datos desde el hijo. El componente hijo contiene la etiqueta @output.
+                   </p> 
+               </li>
+           </ul>
+           
+        </div>
+    </div>
+</div>

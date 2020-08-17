@@ -24,6 +24,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -119,6 +120,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Modulo45"
+    }
+  },
+  "defaultProject": "Modulo45",
+  "cli": {
+    "analytics": "65346987-1a52-4dc8-ac12-ef3d10660b4a"
+  }
 }
